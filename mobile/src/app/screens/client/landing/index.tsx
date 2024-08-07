@@ -9,7 +9,7 @@ import React from "react";
 import { styles } from "./styles";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { mainButtonStyle } from "@/app/styles";
-import { IProps } from "../home/types";
+import { IProps } from "./types";
 
 const ClientLandingScreen:React.FC<IProps> = ({navigation}) => {
     const handleMainButtonPress = ()=>{

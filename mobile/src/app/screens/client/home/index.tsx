@@ -8,6 +8,7 @@ import Notifications from "./components/notifications";
 import SearchComponenet from "./components/search";
 import { DayContainer } from "./components/days";
 import {HeroComponent} from "./components/hero"
+import TodayMenuComponent from "./components/menu";
 
 const ClientHomeScreen: React.FC<IProps> = () => {
   return (
@@ -35,6 +36,12 @@ const ClientHomeScreen: React.FC<IProps> = () => {
           <View>
             <HeroComponent />
           </View>
+
+          <View>
+              <TodayMenuComponent />
+          </View>
+
+
         </View>
       </SafeAreaView>
     </View>

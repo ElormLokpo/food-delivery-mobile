@@ -1,4 +1,4 @@
-import { View, Text, TouchableOpacity } from 'react-native'
+import { View, Text, TouchableOpacity, Image } from 'react-native'
 import React from 'react'
 import { styles } from './styles'
 
@@ -17,7 +17,7 @@ export const HeroComponent = () => {
       </View>
 
       <View>
-            <Text>Image</Text>
+            <Image source={require("../../../../../../assets/file.png")} style={styles.img_style}/>
       </View>
       
     </View>
